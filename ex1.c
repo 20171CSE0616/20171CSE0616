@@ -3,8 +3,9 @@ void main()
 {
 char choice;
 printf("enter the choice\n");
-if and only if 
-  exit
+if and only
+    exit
+  if else
 if(choice=='p')
 printf("physics cycle\n");
 else if(choice=='c')
