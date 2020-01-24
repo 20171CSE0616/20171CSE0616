@@ -3,7 +3,7 @@ void main()
 {
 char choice;
 printf("enter the choice\n");
-scanf("%c",&choice);
+scanf("%c",&choice);if and only
 if(choice=='p')
 printf("physics cycle\n");
 else if(choice=='c')
