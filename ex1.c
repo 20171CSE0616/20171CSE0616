@@ -4,7 +4,7 @@ void main()
 char choice;
 printf("enter the choice\n");
 if and only
-    abcd
+  efgh
   if else
 if(choice=='p')
 printf("physics cycle\n");
