@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+a.highlight:hover{
+color:#ff0000;
+}
+</style>
+</head>
+<body>
+
+<p><b><a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="">This is a link</a></b></p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+<style>
+div {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+div:hover {
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<p>Mouse over the div element below to change its background color:</p>
+
+<div>Mouse Over Me</div>
+
+</body>
+</html>
+
+
+
+
+
+<html>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+p::first-letter{
+color:blue;
+font-size:xx-large;
+
+}
+img{
+opacity:0.2;
+}
+h1::after{
+content:url(smiley.gif);
+}
+::selection{
+color:green;
+background:yellow;
+}
+
+</style>
+<body style="text-align:center;">
+
+<p>Move the mouse over the text below:</p>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+<h1>This is the heading</h1>
+<p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p>
+<img src="images.jpeg" alt="Flower" width="170" height="100">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
